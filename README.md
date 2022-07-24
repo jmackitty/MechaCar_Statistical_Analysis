@@ -5,8 +5,8 @@
 The results of the linear regression show that  vehicle_length, vehicle_weight, and ground_clearance all have r-squared values less than, 0.05%, so the null hypothesis can be rejected for these factors.
 Vehicle_weight is close to the r-squared value so we can take a closer look there. The spoiler_angle and AWD are greater than 0.05% so these suppport the null hypothesis, which means these do not predict the mpg for the prototypes. 
 
-"C:\Users\jemnj\RUT-VIRT-DATA-PT-03-2022-U-B\MechaCar_Statistical_Analysis\Deliverable_1_script.png"
-"C:\Users\jemnj\RUT-VIRT-DATA-PT-03-2022-U-B\MechaCar_Statistical_Analysis\Deliverable_1_scriptsummary.png"
+<img width="415" alt="Deliverable_1_script" src="https://user-images.githubusercontent.com/99056132/180630378-92eb105b-56c2-484c-b812-710570f55ec1.png">
+<img width="335" alt="Deliverable_1_scriptsummary" src="https://user-images.githubusercontent.com/99056132/180630381-300d25d1-da87-4cbc-8af1-731d77d86acb.png">
 
 ## Summary Statistics on Suspension Coils
 
@@ -15,9 +15,10 @@ When reviewing the entire manufacturinng lot, the manufacturing data meets the d
 
 Lots 1 and Lot 2 are within the 100 PSI variance requirement of 0.97 and 7.49. Lot 3 is showing a much larger variance  of 170.29, so lot 3 does not meet this design specification.
 
-"C:\Users\jemnj\RUT-VIRT-DATA-PT-03-2022-U-B\MechaCar_Statistical_Analysis\Deliverable_2_script.png"
-"C:\Users\jemnj\RUT-VIRT-DATA-PT-03-2022-U-B\MechaCar_Statistical_Analysis\Deliverable_2_lot_summary.png"
-"C:\Users\jemnj\RUT-VIRT-DATA-PT-03-2022-U-B\MechaCar_Statistical_Analysis\Deliverable_2_total_summary.png"
+<img width="275" alt="Deliverable_2_lot_summary" src="https://user-images.githubusercontent.com/99056132/180630398-8b4cfe21-925f-4e03-b1fd-7e5d99539558.png">
+<img width="569" alt="Deliverable_2_script" src="https://user-images.githubusercontent.com/99056132/180630402-eb4e0006-4c09-48d3-a016-3f03065b1dbd.png">
+<img width="218" alt="Deliverable_2_total_summary" src="https://user-images.githubusercontent.com/99056132/180630409-3faf913f-6e43-4989-a0e7-6c9f3b230ab9.png">
+
 
 ## T-Tests on Suspension Coils
 In this dataset we performed t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
@@ -64,8 +65,11 @@ mean of x
 
 ## Study Design: MechaCar vs Competition
 
-For my statistical study, I will look at how the MechaCar performs against the competition based on the cost metric, and how that impacts consumers buying decisions if the mpg is the same between different companies..
-Null hypothesis: The cost of a MechaCar vehicle has no affect on consumers deciding on a car based on mpg.
-Alternative hypothesis: The cost of a MechaCar vehicle has an affect on consumers deciding on a car based on mpg.
+For my statistical study, I will look at how the MechaCar performs against the competition based on the cost metric, and how that impacts consumers buying decisions if the mpg is the same between different companies.
+
+**Null hypothesis: The cost of a MechaCar vehicle has no affect on consumers deciding on a car based on mpg.
+
+**Alternative hypothesis: The cost of a MechaCar vehicle has an affect on consumers deciding on a car based on mpg.
+
 *The statistical test would you use to test the hypothesis is because
 *The data needed to run the statistical test would be a multiple linear regression. This could be used to determine the factors that have the highest correlation between MechaCar pricing and a competitors pricing with the same mpg measurement. We can see what the data shows and then we would be able to predict future buying trends based on this data.
