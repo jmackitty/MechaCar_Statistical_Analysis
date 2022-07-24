@@ -1,0 +1,17 @@
+
+mecha <- read.csv("MechaCar_mpg.csv",stringsAsFactors=F,check.names=F)
+mechalr<- lm(mpg~vehicle_length+vehicle_weight+spoiler_angle+ground_clearance+AWD,data = mecha)
+summary(mechalr)
+
+susp <- read.csv("Suspension_Coil.csv",stringsAsFactors=F,check.names=F)
+total_summary<-susp%>%summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),StandardDeviation=sd(PSI))
+                                
+lot_summary<-susp%>%group_by(Manufacturing_Lot)%>%summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),StandardDeviation=sd(PSI))
+
+t.test(susp$PSI,mu=1500)
+
+t.test(subset(susp,Manufacturing_Lot=="Lot3")$PSI,mu=1500)
+
+t.test(subset(susp,Manufacturing_Lot=="Lot2")$PSI,mu=1500)
+
+t.test(subset(susp,Manufacturing_Lot=="Lot1")$PSI,mu=1500)
