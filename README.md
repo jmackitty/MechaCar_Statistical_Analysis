@@ -67,8 +67,8 @@ mean of x
 
 For my statistical study, I will look at how the MechaCar performs against the competition based on the cost metric, and how that impacts consumers buying decisions if the mpg is the same between different companies.
 
-**Null hypothesis: The cost of a MechaCar vehicle has no affect on consumers deciding on a car based on mpg.
+**Null hypothesis**: The cost of a MechaCar vehicle has no affect on consumers deciding on a car based on mpg.
 
-**Alternative hypothesis: The cost of a MechaCar vehicle has an affect on consumers deciding on a car based on mpg.
+**Alternative hypothesis**: The cost of a MechaCar vehicle has an affect on consumers deciding on a car based on mpg.
 
-*The data needed to run the statistical test would be a multiple linear regression. This could be used to determine the factors that have the highest correlation between MechaCar pricing and a competitors pricing with the same mpg measurement. We can see what the data shows and then we would be able to predict future buying trends based on this data.
+The data needed to run the statistical test would be a multiple linear regression. This could be used to determine the factors that have the highest correlation between MechaCar pricing and a competitors pricing with the same mpg measurement. We can see what the data shows and then we would be able to predict future buying trends based on this data.
