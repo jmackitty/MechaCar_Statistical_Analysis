@@ -19,12 +19,12 @@ Lots 1 and Lot 2 are within the 100 PSI variance requirement of 0.97 and 7.49. L
 "C:\Users\jemnj\RUT-VIRT-DATA-PT-03-2022-U-B\MechaCar_Statistical_Analysis\Deliverable_2_lot_summary.png"
 "C:\Users\jemnj\RUT-VIRT-DATA-PT-03-2022-U-B\MechaCar_Statistical_Analysis\Deliverable_2_total_summary.png"
 
-## Deliverable 3
+## T-Tests on Suspension Coils
 In this dataset we performed t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
 The t-test analysis for all manufacturing lots shows that the true mean of the sample is 1498.78 and a p-value of 0.06. This is higher than the common signifigance level of 0.05.
 
-Lot 1 had a t-test result 0 of and Lot 2 had a t-test result of 0.51745. Lot 1 and Lot 2 are not statistically different from the population mean so we can can not reject the null hypothesis with this data. The t-test for Lot 3 had a p-value of 0.04168, meaning that there is enough evidence to reject the null hypothesis. Therefore, the mean PSI of Lot 3 is statistically different from the population mean of 1,500 pounds per square inch.
+Lot 1 had a t-test result 0 of and Lot 2 had a t-test result of 0.51745. Lot 1 and Lot 2 are not statistically different from the population mean so we can can not reject the null hypothesis with this data. The t-test for Lot 3 had a p-value of 0.04168 which is lower than the common significant level, meaning that there is enough evidence to reject the null hypothesis. Therefore, the mean PSI of Lot 3 is statistically different from the population mean of 1,500 pounds per square inch.
 	One Sample t-test
 
 data:  subset(susp, Manufacturing_Lot == "Lot3")$PSI
@@ -61,3 +61,11 @@ alternative hypothesis: true mean is not equal to 1500
 sample estimates:
 mean of x 
      1500 
+
+## Study Design: MechaCar vs Competition
+
+For my statistical study, I will look at how the MechaCar performs against the competition based on the cost metric, and how that impacts consumers buying decisions if the mpg is the same between different companies..
+Null hypothesis: The cost of a MechaCar vehicle has no affect on consumers deciding on a car based on mpg.
+Alternative hypothesis: The cost of a MechaCar vehicle has an affect on consumers deciding on a car based on mpg.
+*The statistical test would you use to test the hypothesis is because
+*The data needed to run the statistical test would be a multiple linear regression. This could be used to determine the factors that have the highest correlation between MechaCar pricing and a competitors pricing with the same mpg measurement. We can see what the data shows and then we would be able to predict future buying trends based on this data.
